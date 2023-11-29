@@ -1,0 +1,99 @@
+/* Footer */
+
+.footer-border{
+  width: 98%;
+  color: var(--secondarycolor);
+  opacity: .3;
+  margin-top: 100px;
+
+  
+}
+
+.footer_container{
+  display: flex;
+  margin-top: 20px;
+  cursor:auto;
+
+  position: relative;
+
+
+}
+
+.footer_container ul li{
+  margin: 11px 74px 11px 0;
+  font-size: 18px;
+  color: var(--secondarycolor);
+  font-weight: 300;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 4px;
+  transition: text-decoration .15s ease-in-out;
+
+}
+
+.footer_container ul li:hover{
+  text-decoration-color: var(--secondarycolor);
+  text-underline-offset: 4px;
+}
+
+.footer_container ul li.bold{
+  font-weight: bold;
+  color: #333;
+  cursor:auto;
+  text-decoration: none;
+}
+
+.right_footer{
+  margin-left: 180px;
+  margin-top: 10px;
+  margin-right: -100px;
+}
+
+.right_footer div{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 14px;
+
+  
+}
+
+.social-media_logo{
+  margin-right: 15px;
+  width: 30px;
+  vertical-align: middle;
+
+}
+
+.right_footer .facebook:hover{
+  filter: invert(25%) sepia(92%) saturate(2937%) hue-rotate(210deg) brightness(99%) contrast(110%);
+}
+
+.right_footer .youtube:hover{
+  filter: invert(36%) sepia(79%) saturate(6301%) hue-rotate(3deg) brightness(103%) contrast(105%);
+}
+
+.right_footer .linked:hover{
+  filter: invert(13%) sepia(61%) saturate(5158%) hue-rotate(229deg) brightness(90%) contrast(96%);
+}
+
+.right_footer .twitterx:hover{
+  filter: invert(0%) sepia(6%) saturate(24%) hue-rotate(241deg) brightness(89%) contrast(105%);
+}
+
+.right_footer .instagram:hover{
+  filter: invert(68%) sepia(51%) saturate(4920%) hue-rotate(265deg) brightness(104%) contrast(104%);
+}
+
+.right_footer .mastodon:hover{
+  filter: invert(0%) sepia(6%) saturate(24%) hue-rotate(241deg) brightness(89%) contrast(105%);
+}
+
+.social-media-color{
+  color: var(--secondarycolor);
+}
+
+.copyright{
+  position: absolute;
+  bottom: -70px;
+  color: var(--secondarycolor);
+}

@@ -1,0 +1,175 @@
+/* SIDEBAR */
+
+.sidebar{
+  
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  z-index : 100;
+
+  width: 250px;
+
+  padding: 34px;
+
+  background-color: #fafafa;
+
+}
+
+.sidebar .sidebar_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.sidebar .sidebar_content .logo {
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.sidebar .sidebar_content .join{
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: rgb(255, 187, 0);
+
+  transition: color .2s;
+  cursor: pointer;
+  
+  position: relative;
+  white-space: nowrap;
+}
+
+.sidebar .sidebar_content .join span{
+  position: absolute;
+  top: -3px;
+  right: 8px;
+  font-size: 25px;
+}
+
+
+.sidebar .sidebar_content .join:hover{
+  
+  color: rgb(179, 132, 3);
+
+}
+
+.sidebar_content span{
+  font-size: 28px;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+
+.sidebar .sidebar_content .login{
+  margin-top: 10px;
+  font-size: 1.1rem;
+
+  cursor: pointer;
+  transition: color .2s;
+}
+
+.sidebar .sidebar_content .login:hover{
+  color: var(--primarycolor);
+}
+
+.sidebar .sidebar_content2 ul li div{
+  vertical-align: middle;
+}
+
+.sidebar .sidebar_content2 ul li div a:hover {
+  color: var(--secondarycolor);
+}
+
+
+
+.sidebar .sidebar_content2 ul li div img{
+  width: 20px;
+  margin-left: 4px;
+  margin-top: -4px;
+}
+
+.sidebar .sidebar_content2 .techcrunch{
+  transition: color .2s;
+}
+
+.sidebar .sidebar_content2 .techcrunch:hover{
+  color: rgb(253, 193, 63);
+}
+
+.sidebar_content2{
+  margin-top: 40px;
+}
+
+/* Sidebar Menu Margin */
+
+.sidebar .sidebar_content2 ul li{
+  margin-bottom: 14px;
+}
+
+/* Sidebar Menu  */
+
+.sidebar_content2 ul li a{
+  font-size: 1.5rem;
+  white-space: nowrap;
+  font-weight: 200;
+
+  color: var(--secondarycolor);
+
+}
+
+.sidebar_content2 ul li a:hover{
+  color: var(--primarycolor);
+}
+
+.sidebar_content2 ul li a.battlefield{
+  font-size: 23px;
+}
+
+
+.sidebar .search{
+  margin-right: -5px;
+}
+
+.sidebar .search_icon {
+  width: 25px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.sidebar-search-container.active{
+  background-color: #000;
+  margin-left: -34px;
+  width: 250px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 34px;
+}
+
+.sidebar-search-text.active{
+  display: none;
+}
+
+.close-search-text{
+  display: none;
+}
+
+.close-btn.active{
+  margin: -2px auto;
+}
+
+.close-search-text.active{
+  display: inline;
+  color: #fff;
+  font-weight: 800;
+}
+
+
+
+.search-input{
+  
+}
+

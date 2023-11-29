@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Nikola Štefančić">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechCrunch | Register & Login</title>
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="icon" type="image/x-icon" href="favicon/461830.webp">
+
+</head>
+<body class="no-padd-marg">
+  <main>
+    <div class="left-section flexbox">
+      <img src="images/TechCrunch_logo.svg.png" alt="TechCrunch-Logo" title="TechCrunch Logo" class="curs-default">
+      <h1>Welcome to TechCrunch</h1>
+      <h2>Create an account to unlock these benefits</h2>
+      <ul class="bullet-points">
+        <li><span>Comment on articles and express yourself</span></li>
+        <li><span>Manage your Newsletters</span></li>
+        <li><span>Access Privacy Settings</span></li>
+        <li><span>Browse without the distraction of pop up ads</span></li>
+      </ul>
+    </div>
+
+    <div class="right-section flexbox">
+      <img src="images/TechCrunch_logo.svg.png" alt="TechCrunch-Logo" title="TechCrunch Logo" class="curs-default">
+      <h2>Login</h2>
+      <form action="techcrunch-register.php" method="GET" class="flexbox-center">
+        <label for="email" name="email" class="flexbox-center">
+          <input type="email" name="email" id="email" class="login-form" placeholder="E-mail Address" required>
+        </label>
+        <button type="submit" for="email" class="email-btn">Next</button>
+        <div class="checkbox-container">
+          <label for="checkbox" name="checkbox" class="label-text flexbox-center">
+            <input type="checkbox" name="checkbox" class="checkbox-btn">
+            Remember Login
+          </label>
+        </div>
+      </form>
+      <a href="/register/username-reset.html"><p class="username-reset">Forgot your username ?</p></a>
+      <a href="/register/techcrunch-register.html"><button class="register-btn">Create Account</button></a>
+      <p class="service-text">Or continue through service</p>
+      <div class="flexbox">
+        <a href="https://login.yahoo.com/?src=oauth&client_id=OCRlhPCYqdqOmxVX&crumb=puQ7XjMbzpq&lang=hr-HR&redirect_uri=https%3A%2F%2Flogin.techcrunch.com%2Faccount%2Fchallenge%2Ftpa%2Fredirect&done=https%3A%2F%2Fapi.login.yahoo.com%2Foauth2%2Fauthorize%3Fclient_id%3DOCRlhPCYqdqOmxVX%26prompt%3Dselect_account%26redirect_uri%3Dhttps%253A%252F%252Flogin.techcrunch.com%252Faccount%252Fchallenge%252Ftpa%252Fredirect%26response_type%3Dcode%26scope%3Dopenid%2Bsdpp-r%2Bopenid2%26state%3Dacrumb%253DrhPQezMu%257Csrc%253Dtechcrunch%257CsessionIndex%253DQw--%257Cdisplay%253Dlogin%257CauthMechanism%253Dprimary%26ui_locales%3Dhr-HR">
+          <button class="register-service-btn flexbox-center">
+            <img src="/images/Yahoo_logo_PNG1.png" alt="Yahoo-logo" title="Register via Yahoo">
+          </button>
+        </a>
+        <a href="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?client_id=453557034868-mi757ha0qepjh3a44l95f4jukeijau0g.apps.googleusercontent.com&response_type=code&redirect_uri=https%3A%2F%2Flogin.techcrunch.com%2Faccount%2Fchallenge%2Ftpa%2Fredirect&scope=openid%20email%20profile&access_type=online&prompt=select_account&state=acrumb%3DrhPQezMu%7Csrc%3Dtechcrunch%7CsessionIndex%3DQQ--%7Cdisplay%3Dlogin%7CauthMechanism%3Dprimary&service=lso&o2v=2&theme=glif&flowName=GeneralOAuthFlow">
+          <button class="register-service-btn flexbox-center">
+            <img src="/images/google-logo.png" alt="google-logo" title="Register via Google" class="google-logo">
+          </button>
+        </a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

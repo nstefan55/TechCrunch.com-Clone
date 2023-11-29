@@ -1,0 +1,98 @@
+/* Sticky Footer Section */
+
+.sticky_footer_container{
+  position: fixed;
+  z-index: 200;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background-color: rgb(243, 242, 242);
+  height: 90px;
+
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+
+  border-bottom: 4px solid rgb(8, 155, 8);
+  border-bottom-width: 10px;
+}
+
+.left_stk_footer_section{
+  
+  display: flex;
+  align-items: center;
+}
+
+.left_stk_footer_section h2{
+  
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sticky_footer_container img{
+  width: 80px;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.img_right_border{
+  width: 120px;
+  height: 50px;
+  border-right: 1px solid #333;
+  margin-right: 20px;
+
+  display: flex;
+  align-items: center;
+}
+
+.right_stk_footer_section{
+  display: flex;
+  align-items: center;
+}
+
+.right_stk_footer_section button{
+  position: absolute;
+  right: 60px;
+
+  padding: 14px 30px;
+  background-color: rgb(18, 207, 128);
+
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 900;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+.right_stk_footer_section button:hover{
+  opacity: .8;
+}
+.right_stk_footer_section button:active{
+  opacity: .4;
+}
+
+.right_stk_footer_section .close_button{
+  width: 30px;
+  position: absolute;
+  right: -30px;
+  cursor: pointer;
+}
+
+
+.right_stk_footer_section img:hover{
+  box-shadow: 0px 15px 10px -15px rgba(0,0,0,0.8);
+}
+
+
+/* JS Hide Sticky Footer Class */
+
+.sticky_footer_container.active{
+  display: none;
+}
+
+.close_button.active{
+  display: none;
+}

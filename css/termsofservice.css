@@ -1,0 +1,75 @@
+.term-title{
+  font-size: 2.6rem;
+  font-weight: 900;
+
+  margin-bottom: 25px;
+}
+
+.term-text,.term-bottom-text{
+  color: var(--secondarycolor);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.term-text{
+  margin-bottom: 25px;
+}
+
+.term-bottom-text{
+  margin-top: 80px;
+}
+
+div .term-lang{
+  font-size: 22px;
+  color: var(--gradientcolor);
+  text-decoration: underline;
+  text-decoration-color: rgba(211, 211, 211, 0.2);
+  text-underline-offset: 4px;
+
+  transition: text-decoration .2s;
+}
+
+div .term-lang:hover{
+  text-decoration-color: var(--gradientcolor);
+}
+
+.term-link{
+  color: var(--gradientcolor);
+}
+
+
+/* Arabic */
+
+.term-text{
+  width: 74%;
+  line-height: 2.2rem;
+}
+
+/* Austrian */
+
+.term-title.aust{
+  font-size: 2.7rem;
+  width: 80%;
+}
+
+
+/* Belgian */
+
+.term-title.belg{
+  font-size: 3rem;
+  width: 80%;
+}
+
+/* Czech */
+
+.term-title.czech{
+  font-size: 2.7rem;
+  width: 80%;
+}
+
+/* Dutch */
+
+.term-title.dutch{
+  font-size: 3rem;
+  width: 80%;
+}
